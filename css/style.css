@@ -1,0 +1,86 @@
+body {
+    background-image: linear-gradient(#082032, #2C394B, #334756);
+}
+p{
+    
+    font-family: 'Pacifico';
+    font-size: 20px;
+    color: #F0ECE5;
+   /* padding-block: 5px; */
+   line-height: 25px;
+}
+h2{
+
+    font-family: 'Pacifico';
+    font-size: 50px;
+    color: #F0ECE5;
+    line-height: 20px;
+    padding-bottom: 5px;
+
+}
+
+h1 {
+    font-family: 'Pacifico';
+    font-size: 30px;
+    color: #F0ECE5;
+}
+
+#todoFrame {
+    background-color: transparent;
+    border-radius: 20px;
+    font-family: "Carattere";
+    font-size: 25px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5); 
+}
+
+.todoItem {
+    background-color: #B6BBC4;
+    border-radius: 25px;
+    /* width: 90%; */
+
+
+}
+.deleteBtn{
+    border-radius: 25px;
+    position: absolute;
+    right: 10px;
+    top: 1.5px;
+
+}
+
+#addBtn {
+    /* background-image: linear-gradient( #2C394B, #334756); */
+    background-color: #B6BBC4;
+    position: absolute;
+    top: 7.5px;
+    right: 10px;
+    color:#2C394B;
+}
+
+
+.markedLine {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    width: 97%;
+    height: 3px;
+    background-color: black;
+
+}
+
+#inputItem{
+    background-color: transparent;
+    /* border-color:#B6BBC4 ; */
+    border: 0;
+    border-radius: 15px;
+    color: #B6BBC4;
+    font-family: "Carattere";
+    font-size: 25px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5); 
+
+}
+#inputItem::placeholder{
+    font-family: "Carattere";
+font-size: 25px;
+color: #B6BBC4;
+}
